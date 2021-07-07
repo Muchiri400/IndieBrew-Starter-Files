@@ -145,3 +145,72 @@ nav ul{
 .button:hover {
     opacity: 80%;
 }
+
+/* Media Queries  */
+@media (max-width: 1024px){
+    .bd-container{
+        min-height: 80vh;
+        padding: 0px 100px 0px 100px;
+
+    }
+    .content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+    }
+    .content .status-box{
+        max-width: 700px;
+        margin-bottom: 1rem;
+    }
+    .content .status-box p{
+        font-size: 1.2rem;
+        
+    }
+    .signup-form{
+        max-width: 800px;
+    }
+
+
+}
+@media (max-width: 764px){
+    .back span{
+        display: none;
+    }
+    nav{
+        padding: 20px 20px;
+    }
+    .bd-container{
+        min-height: 100vh;
+        padding: 0px 20px 0px 20px;
+
+    }
+    .content{
+        margin-top: 0;
+    }
+    .content .status-box{
+        max-width: 700px;
+        margin-bottom: 1rem;
+    }
+    .content .status-box p{
+        font-size: 1.1rem;  
+    }
+    .content .status-box h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        
+    }
+    .signup-form{
+        max-width: 800px;
+        margin-bottom: 1rem;
+    }
+    .content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+    }
+
+
+}
+
